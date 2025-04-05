@@ -26,4 +26,4 @@ jobs:
         with:
           tag_name: latest
           files: |
-            u-boot-*/output/u-boot.bin
+            output/*.bin
