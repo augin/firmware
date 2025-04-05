@@ -19,6 +19,9 @@ jobs:
       fail-fast: false
       matrix:
         platform:
+          # Sigmastar [I3]
+          - msc316dm_lite
+          
           # Sigmastar [I6]
           - ssc325_lite
           - ssc325de_lite
