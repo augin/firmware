@@ -26,4 +26,4 @@ jobs:
         with:
           tag_name: latest
           files: |
-            output/*.bin
+            *.bin
