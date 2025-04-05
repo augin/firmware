@@ -27,3 +27,6 @@ jobs:
           tag_name: latest
           files: |
             u-boot.bin
+            u-boot-msc313e/u-boot.bin
+            u-boot-msc313e/output/u-boot.bin
+            output/u-boot.bin
