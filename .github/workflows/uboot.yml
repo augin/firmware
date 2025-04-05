@@ -14,9 +14,12 @@ jobs:
 
       - name: Sigmastar
         run: |
-          git clone https://github.com/openipc/u-boot-sigmastar --depth 1
-          cd u-boot-sigmastar
-          bash build.sh
+          git clone https://github.com/augin/u-boot-msc313e --depth 1
+          cd u-boot-msc313e
+          export ARCH=arm
+          export CROSS_COMPILE=/opt/arm-linux-gnueabihf-4.8.3-201404/bin/arm-linux-gnueabihf- 
+          make infinityb3_defconfig
+          make -j5
 
       - name: Upload
         uses: softprops/action-gh-release@v2
