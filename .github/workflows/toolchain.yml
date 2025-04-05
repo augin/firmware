@@ -15,10 +15,6 @@ jobs:
       matrix:
         platform:
           # Sigmastar
-          - ssc325_lite
-          - ssc335_lite
-          - ssc377_lite
-          - ssc338q_lite
           - msc316dm_lite
 
   
